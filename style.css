@@ -6,8 +6,45 @@
     padding-bottom: 20px;
  }
  
- table{
-	background: #dae5f4;
- 
- 
+ th{
+	color:black;
+	background:white;
  }
+ 
+ 
+ td:nth-child(1) {
+	color:red;
+ }
+
+
+ 
+ td:nth-child(3){
+	color: blue;
+ }
+ 
+ tr:nth-child(n+1){
+	background:lightgreen;
+ }
+  
+
+ 
+  tr:nth-child(2n){
+	background:lightblue;
+ }
+ 
+ 
+ dt:hover +dd{
+	background-color:purple;
+	
+	
+ }
+ 
+ dd:hover{
+	background-color:none;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
