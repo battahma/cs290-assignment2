@@ -48,3 +48,17 @@
 	background-color:none;
  }
  
+ .outer-content div{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #FF3399;
+	height: 100px;
+	width: 75%;
+ }
+ 
+	  .inner-container div{
+		text-align: center;
+		background-color: lightgreen;
+		height: 80px;
+		width: 75%;
+	 }
