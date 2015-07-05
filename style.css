@@ -51,3 +51,19 @@
  img {
 	float: left;	
 }
+
+div.outer-content{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #FF3399;
+	height: 100px;
+	width: 75%;
+ }
+ 
+div.inner-container{
+	text-align: center;
+	margin: 0 auto;
+	background-color: blue;
+	height: 80px;
+	width: 75%;
+	 }
