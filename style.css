@@ -58,12 +58,17 @@ div.outer-content{
 	background-color: #FF3399;
 	height: 100px;
 	width: 75%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
  }
  
 div.inner-container{
 	text-align: center;
 	margin: 0 auto;
-	background-color: blue;
-	height: 80px;
+	background-color: lightgreen;
+	height: 70px;
 	width: 75%;
+    vertical-align:middle;
+	line-height: 70px;
 	 }
